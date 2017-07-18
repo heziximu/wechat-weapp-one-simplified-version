@@ -1,0 +1,21 @@
+<!--pages/movie/movie.wxml-->
+<view class="container">
+    <view wx:for="{{movieData}}" class="movie" wx:key="id" data-index="{{item.index}}" bindtap="getMovieDetail">
+        <view class="header">
+        <text class="title">{{item.title}}</text>
+        <text class="author">
+            文/{{item.author.user_name}}
+        </text>
+        </view>
+        <image class="picture" src="{{item.img_url}}" mode="aspectFill"></image>
+        <view class="header">
+        <text class="guide-word">{{item.forward}}</text>
+        <view class="guide-source">
+            --《{{item.subtitle}}》
+        </view>
+        </view>
+        <view class="date">
+            {{item.post_date}}
+        </view>
+    </view>
+</view>

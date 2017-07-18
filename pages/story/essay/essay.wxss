@@ -1,0 +1,65 @@
+/* essay.wxss */
+.essay {
+  padding: 15px;
+}
+
+.essay-header {
+  line-height: 50rpx;
+}
+
+.essay-title {
+  padding: 24rpx 0rpx;
+  font-size: 44rpx;
+}
+
+.line1 {
+  width: 140rpx;
+  height: 9rpx;
+  background-color: black;
+}
+
+.essay-author {
+  padding-top: 40rpx;
+  font-size: 33rpx;
+}
+
+.essay-content {
+  font-size: 33rpx;
+  line-height: 50rpx;
+}
+
+.essay-editor {
+  padding: 40rpx 0rpx;
+  color: #888;
+  font-size: 12px;
+}
+ 
+.author-title {
+  font-size: 32rpx;
+  padding: 20rpx 0;
+}
+
+.line2 {
+  width: 110rpx;
+  height: 6rpx;
+  background-color: black;
+}
+.author-infor {
+  padding: 20rpx 0rpx;
+}
+
+.author-image {
+  width: 100rpx;
+  height: 100rpx;
+  float: left;
+  border-radius: 50rpx;
+}
+.name {
+  margin-left: 120rpx;
+  font-size: 32rpx;
+}
+.desc {
+  margin-left: 120rpx;
+  font-size: 26rpx;
+  color: #888;
+}

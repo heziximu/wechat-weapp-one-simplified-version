@@ -1,0 +1,5 @@
+<!--detail.wxml-->
+<view class="container">
+  <import src="../../../index/templates/indexItem.wxml"/>
+  <template is="index-item" data="{{item: detail}}"/>
+</view>

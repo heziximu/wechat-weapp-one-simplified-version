@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="container">
+　<swiper class='index-swiper'>
+　　 <swiper-item wx:for="{{hpCard}}" wx:for-index="idx" wx:key="{{item_id}}">
+      <import src="templates/indexItem.wxml"/>
+      <template is="index-item" data="{{item}}"></template>
+　 　</swiper-item> 
+　</swiper>
+</view>
+

@@ -1,0 +1,19 @@
+<!--detail.wxml-->
+<view class="container">
+    <view class="movie-story">
+        <view class="movie-header">
+            <view class="movie-title">
+                <text>{{movieStory.title}}</text>
+            </view>
+            <view class="line1"></view>
+            <view class="movie-author">
+                <text>{{movieStory.author.user_name}}</text>
+            </view>
+        </view>
+        <view class="movie-body">
+            <view class="movie-content">
+              <text>{{movieStory.share_info.content}}</text>
+            </view>
+        </view>
+    </view>
+</view>

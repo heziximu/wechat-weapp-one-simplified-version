@@ -1,0 +1,53 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/story/story",
+    "pages/story/essay/essay",
+    "pages/movie/movie",
+    "pages/movie/movie_story/movie_story",
+    "pages/history/history",
+    "pages/history/index/index",
+    "pages/history/essay/essay",
+    "pages/history/index/detail/detail"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#2c2c2c",
+    "backgroundColor": "#fff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",       
+        "iconPath": "images/圆仔8a.png",
+        "selectedIconPath": "images/圆仔2c.png"
+      },
+      {
+        "pagePath": "pages/story/story",        
+        "iconPath": "images/书8a.png",
+        "selectedIconPath": "images/书2c.png"
+      },
+      {
+        "pagePath": "pages/movie/movie",       
+        "iconPath": "images/影片8a.png",
+        "selectedIconPath": "images/影片2c.png"
+      },
+      {
+        "pagePath": "pages/history/history",   
+        "iconPath": "images/列表8a.png",
+        "selectedIconPath": "images/列表2c.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 1000,
+    "connectSocket": 1000,
+    "uploadFile": 1000,
+    "downloadFile": 1000
+  },
+  "debug": false
+}

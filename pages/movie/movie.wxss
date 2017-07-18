@@ -1,0 +1,51 @@
+/* pages/movie/movie.wxss */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15rpx 0rpx;
+
+}
+
+.movie {
+  width: 100%;
+  margin-bottom: 35rpx;
+  box-shadow: 0rpx 20rpx 0px #ebebeb;
+}
+
+.header {
+  padding: 24rpx 28rpx;
+  line-height: 50rpx;
+}
+
+.title {
+  font-size: 35rpx;
+}
+
+.author {
+  font-size: 30rpx;
+  color: #888;
+}
+
+.picture {
+  padding: 0rpx 28rpx;
+  width: 92%;
+  height:390rpx;
+}
+
+.guide-word {
+  font-size: 30rpx;
+  color: #888;
+}
+
+.guide-source {
+  font-size: 30rpx;
+  color: #888;
+  text-align: right;
+}
+
+.date {
+  padding: 40rpx 28rpx 20rpx 28rpx;
+  color: #888;
+  font-size: 26rpx;
+}

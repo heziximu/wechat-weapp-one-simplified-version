@@ -1,0 +1,42 @@
+/* detail.wxss */
+
+.index-swiper{
+  height: 100%
+}
+
+.vol {
+   border-top: 0;
+}
+.vol-number {
+  font-size: 26rpx;
+  color: #888;
+}
+
+.vol-picture {
+  width: 100%;
+}
+
+.vol-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15rpx 0rpx;
+}
+
+.vol-author {
+  padding: 0rpx, 40rpx;
+  font-size: 26rpx;
+  color: #888;
+}
+
+.vol-content-text {
+  padding: 38rpx 60rpx;
+  line-height: 50rpx;
+  font-size: 30rpx;
+}
+
+.vol-maketime {
+  padding: 0rpx 60rpx;
+  color: #888;
+  font-size: 26rpx;
+}

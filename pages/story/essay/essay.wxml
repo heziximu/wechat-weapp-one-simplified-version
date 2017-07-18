@@ -1,0 +1,34 @@
+<!--essay.wxml-->
+<view class="container">
+    <view class="essay">
+        <view class="essay-header">
+            <view class="essay-title">
+                <text>{{essay.hp_title}}</text>
+            </view>
+            <view class="line1"></view>
+            <view class="essay-author">
+                <text>文/{{essay.hp_author}}</text>
+            </view>
+        </view>
+        <view class="essay-body">
+            <view class="essay-content">
+                <text>{{essay.hp_content}}</text>
+            </view>
+            <view class="essay-editor">
+                <text>{{essay.hp_author_introduce}}</text>
+            </view>
+        </view>
+        <view class="author-intru">
+            <view class="author-title">作者</view>
+            <view class="line2"></view>
+            <view class="author-infor">
+                <image class="author-image" src="{{essay.author[0].web_url}}"></image>
+                <view class="name">{{essay.author[0].user_name}}  {{essay.author[0].wb_name}}</view>
+                <view class="desc">
+                    {{essay.author[0].desc}}
+                </view>
+                
+            </view>
+        </view>
+    </view>
+</view>

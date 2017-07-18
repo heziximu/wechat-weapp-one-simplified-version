@@ -1,0 +1,19 @@
+<!--essay.wxml-->
+<view class="container">
+  <view class="essay">
+    <block wx:for="{{essayByMonth}}" wx:key="content_id">
+      <view class="essay-item" data-id="{{item.content_id}}" bindtap="tapEssay">
+        <view class="essay-header">
+          <text class="essay-title">{{item.hp_title}}</text>
+          <text class="article-type">阅读</text>
+          <view class="essay-author">
+            <text>{{item.author[0].user_name}}</text>
+          </view>
+        </view>
+        <view class="essay-content">
+          <text>{{item.guide_word}}</text>
+        </view>
+      </view>
+    </block>
+  </view>
+</view>

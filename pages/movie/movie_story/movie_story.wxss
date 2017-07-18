@@ -1,0 +1,28 @@
+/* detail.wxss */
+.movie-story {
+  padding: 15px;
+}
+
+.movie-header {
+  line-height: 50rpx;
+}
+
+.movie-title {
+  padding: 24rpx 0rpx;
+  font-size: 44rpx;
+}
+
+.line1 {
+  width: 140rpx;
+  height: 9rpx;
+  background-color: black;
+}
+
+.movie-author {
+  padding-top: 40rpx;
+  font-size: 33rpx;
+}
+.movie-content {
+  font-size: 33rpx;
+  line-height: 50rpx;
+}

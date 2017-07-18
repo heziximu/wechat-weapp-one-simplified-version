@@ -1,0 +1,12 @@
+<!--indexItem.wxml-->
+<template name="index-item">
+    <text class="vol-number">{{item.volume}}</text>
+    <image class="vol-picture" bindtap="bindViewTap" src="{{item.img_url}}" mode="aspectFill"></image> 
+    <view class="vol-content">
+        <text class="vol-author">{{item.title}}|{{item.pic_info}}</text>
+        <text class="vol-content-text">{{item.forward}}</text>
+        <text class="vol-author">{{item.words_info}}</text>
+    </view>
+    <text class="vol-maketime">{{item.post_date}}</text>
+</template>
+

@@ -1,0 +1,14 @@
+<!--pages/story/story.wxml-->
+<view class="container">
+  <view wx:for="{{readingData}}" class="reading" wx:key="id" data-id="{{item.content_id}}" bindtap="getEssay">
+    <view class="header">
+      <text class="title">{{item.title}}</text>
+      <text class="author">文/{{item.author.user_name}}</text>
+    </view>
+    <image class="picture" src="{{item.img_url}}" mode="aspectFill"></image>
+    <view class="header">
+      <text class="guide-word">{{item.forward}}</text>
+    </view>
+    <view class="date">{{item.post_date}}</view>
+  </view>
+</view>
